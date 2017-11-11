@@ -11,4 +11,5 @@ enter blog and run rails s.
 The first part of the homework is in the top web. You will see the date message in the bottom of the web.
 And click "My blog". You will see the second part of my homework. Articles can be create,edit,delete and read in the website.
 
-
+To test the project, you need to run the command below at first:
+bin/rake db:migrate RAILS_ENV=development 
