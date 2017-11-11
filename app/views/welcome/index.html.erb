@@ -1,0 +1,29 @@
+<div>
+  <h1>Top Web</h1>
+</div>
+
+<div>
+  <h3>This is the top web of my homework, please click "My blog" to show the second part of the homework</h3>
+</div>
+
+<div>
+<p>
+Javascript code is used in this part to show the time.
+</p>
+<h2>
+<script>
+  var dayName =  new Array("Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday");
+  var monName = new Array("January","February","March","April","May","June","July","August","September","Octomber","November","December");
+
+  var now = new Date();
+  var dtString = "Today is " +  dayName[now.getDay()] + " , " + monName[now.getMonth()] + " " + now.getDate();
+  document.write(dtString);
+</script>
+</h2>
+</div>
+
+
+<%= link_to 'My blog', controller: 'articles' %>
+
+
+
