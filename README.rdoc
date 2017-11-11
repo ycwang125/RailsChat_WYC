@@ -1,15 +1,9 @@
-= README
-
-
-Things you may want to cover:
-
+相关版本：
 ruby 2.3.1p112 (2016-04-26) [x86_64-linux-gnu]
 Rails 4.2.6
 
-enter blog and run rails s.
+运行后第一页为作业的第一部分，网页底部显示了当地时间。点击"My blog"后，进入作业第二部分，网页已经实现了对文章的添加，修改，删除和查看。
 
-The first part of the homework is in the top web. You will see the date message in the bottom of the web.
-And click "My blog". You will see the second part of my homework. Articles can be create,edit,delete and read in the website.
-
-To test the project, you need to run the command below at first:
+测试前需要先运行：
+bundle install
 bin/rake db:migrate RAILS_ENV=development 
